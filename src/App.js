@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
-
+// import logo from './logo.svg';
+// import './App.css';
+import React from "react";
+import Classcomp from "./compounds/classcomp";
+import Funcomp from "./compounds/funcomp";
+import Click from "./compounds/click";
+import Onmouse from "./compounds/onmouse";
+import Parent from "./compounds/parent";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div><h1>hello 1</h1>
+        <h1>hello</h1>
+        <Classcomp/>
+        <Funcomp/>  
+       <Click/>
+        <Onmouse/>
+        <Parent/>
     </div>
+
   );
 }
 
